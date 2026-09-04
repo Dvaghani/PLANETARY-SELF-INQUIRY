@@ -105,27 +105,40 @@ The deterministic calculation engine enforces all 30 scientific invariants from 
 
 ---
 
-## Getting Started
+## Getting Started (How to Run on Your PC)
 
-### Installation
+### Prerequisites
+- **Node.js**: v18, v20, v22, or newer ([Download Node.js](https://nodejs.org/))
+- **npm** (comes bundled with Node.js)
+- **Git**: ([Download Git](https://git-scm.com/))
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Dvaghani/PLANETARY-SELF-INQUIRY.git
+cd PLANETARY-SELF-INQUIRY
+```
+
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-### Run Locally
+### 3. Start the Development Server
 ```bash
 npm run dev
 ```
-Open [http://localhost:5173/](http://localhost:5173/) in your browser.
+After running this, open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
 
-### Run Automated Invariant Tests
+### 4. Run Automated Invariant Tests (Optional)
+Runs all 33 Vitest tests verifying the scientific invariants:
 ```bash
 npm test
 ```
 
-### Production Build
+### 5. Build for Production (Optional)
 ```bash
 npm run build
+npm run preview
 ```
 
 ---
